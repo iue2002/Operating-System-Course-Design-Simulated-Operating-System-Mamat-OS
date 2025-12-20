@@ -87,8 +87,8 @@
 
 1. **克隆仓库**
    ```bash
-   git clone https://github.com/your-username/麦麦提OS-源码.git
-   cd 麦麦提OS-源码
+   git clone https://github.com/iue2002/Operating-System-Course-Design-Simulated-Operating-System-Mamat-OS.git
+   cd Operating-System-Course-Design-Simulated-Operating-System-Mamat-OS
    ```
 
 2. **构建后端**
@@ -237,9 +237,7 @@ end.
 
 ## 👥 作者
 
-- **麦麦提艾力** - *项目发起人与主要开发者* - [GitHub Profile](https://github.com/username1)
-- **艾力开木江** - *核心开发者* - [GitHub Profile](https://github.com/username2)
-- **艾力亚尔** - *前端开发者* - [GitHub Profile](https://github.com/username3)
+- **麦麦提艾力** - *项目发起人与主要开发者* - [GitHub Profile](https://github.com/iue2002)
 
 ## 🙏 致谢
 
@@ -251,11 +249,11 @@ end.
 
 如果您有任何问题或建议，请通过以下方式联系我们：
 
-- 提交 [Issue](https://github.com/your-username/麦麦提OS-源码/issues)
-- 发送邮件至：your-email@example.com
+- 提交 [Issue](https://github.com/iue2002/Operating-System-Course-Design-Simulated-Operating-System-Mamat-OS/issues)
+- 发送邮件至：212985006@qq.com
 
 ## ⭐ Star History
 
 如果这个项目对您有帮助，请给我们一个 ⭐️！
 
-[![Star History Chart](https://api.star-history.com/svg?repos=your-username/麦麦提OS-源码&type=Date)](https://star-history.com/#your-username/麦麦提OS-源码&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=iue2002/Operating-System-Course-Design-Simulated-Operating-System-Mamat-OS&type=Date)](https://star-history.com/#iue2002/Operating-System-Course-Design-Simulated-Operating-System-Mamat-OS&Date)
