@@ -1,0 +1,35 @@
+{
+  "$schema": "https://raw.githubusercontent.com/tauri-apps/tauri/v1/schema.json",
+  "build": {
+    "beforeBuildCommand": "npm run build",
+    "beforeDevCommand": "npm run dev",
+    "distDir": "../dist",
+    "devPath": "http://localhost:5173"
+  },
+  "package": {
+    "productName": "OS-Sim",
+    "version": "1.0.0"
+  },
+  "tauri": {
+    "windows": [
+      {
+        "title": "麦麦提OS",
+        "fullscreen": false,
+        "resizable": true,
+        "width": 1280,
+        "height": 800
+      }
+    ],
+    "bundle": {
+      "identifier": "com.os.sim",
+      "targets": ["nsis"],
+      "icon": ["icons/icon.ico"],
+      "resources": ["../../os-core/target/os-core-1.0.0.jar"]
+    },
+    "allowlist": {
+      "shell": { "all": false },
+      "dialog": { "all": true },
+      "fs": { "all": false }
+    }
+  }
+}

@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+@theme {
+    --color-os-bg: #000000;
+    --color-os-surface: rgba(28, 28, 30, 0.75);
+    --color-os-surfaceHighlight: rgba(255, 255, 255, 0.1);
+    --color-os-accent: #0a84ff;
+    --color-os-accentHover: #0077ed;
+    --color-os-text: #ffffff;
+    --color-os-muted: #86868b;
+    --color-os-border: rgba(255, 255, 255, 0.15);
+
+    --animate-fade-in: fadeIn 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    --animate-slide-up: slideUp 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    --animate-pop-in: popIn 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes slideUp {
+        0% {
+            transform: translateY(20px) scale(0.95);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateY(0) scale(1);
+            opacity: 1;
+        }
+    }
+
+    @keyframes popIn {
+        0% {
+            transform: scale(0.4);
+            opacity: 0;
+            filter: blur(20px);
+        }
+
+        100% {
+            transform: scale(1);
+            opacity: 1;
+            filter: blur(0);
+        }
+    }
+
+    @keyframes spin {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    --animate-spin-slow: spin 3s linear infinite;
+}
+
+.scrollbar-hide,
+.scrollbar-none {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar,
+.scrollbar-none::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    @apply bg-black text-os-text overflow-hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-white/20 rounded-full backdrop-blur-md;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    @apply bg-white/30;
+}
