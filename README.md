@@ -30,31 +30,31 @@
 - 支持多级目录结构
 - 文件创建、读取、写入、删除操作
 - 支持简单的可执行文件格式
-
+![image](https://github.com/iue2002/Operating-System-Course-Design-Simulated-Operating-System-Mamat-OS/blob/main/frontend/src-tauri/icons/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-03-12%20135612.png)
 ### ⚙️ 进程管理
 - 进程控制块（PCB）管理
 - 进程状态管理（就绪、运行、阻塞、终止）
 - 简单的进程调度算法
 - 进程同步与通信
-
+![image](https://github.com/iue2002/Operating-System-Course-Design-Simulated-Operating-System-Mamat-OS/blob/main/frontend/src-tauri/icons/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-03-12%20135214.png)
 ### 💾 内存管理
 - 分页内存管理机制
 - 页表管理
 - 简单的页面置换算法
 - 内存分配与回收
-
+![image](https://github.com/iue2002/Operating-System-Course-Design-Simulated-Operating-System-Mamat-OS/blob/main/frontend/src-tauri/icons/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-12-21%20132520.png)
 ### 🔌 设备管理
 - I/O设备模拟
 - 设备中断处理
 - 设备状态监控
-
+![image](https://github.com/iue2002/Operating-System-Course-Design-Simulated-Operating-System-Mamat-OS/blob/main/frontend/src-tauri/icons/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-03-12%20135701.png)
 ### 🖥️ 用户界面
 - 类Windows桌面环境
 - 文件资源管理器
 - 进程监视器
 - 内存监视器
 - 设备状态监视器
-
+![image](https://github.com/iue2002/Operating-System-Course-Design-Simulated-Operating-System-Mamat-OS/blob/main/frontend/src-tauri/icons/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-03-12%20140447.png)
 ## 🏗️ 系统架构
 
 ```
